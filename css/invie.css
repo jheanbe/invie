@@ -1,0 +1,267 @@
+/*
+se usa el software sketch de para ver las propiedades
+
+para ver colores se usa colorzilla.com/gradient-editor/
+
+*{
+	width: ;
+	height: ; 
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid red;
+}*/
+
+.body {
+	font-family: 'Allerta', sans-serif;
+	margin: 0px;
+}
+table {
+	width: 100%;
+}
+
+th {
+	background: #273b47;
+	color: white;
+}
+
+th {
+	padding: 10px 20px;
+	text-align: left;
+}
+
+td {
+	padding: 20px;
+}
+
+table, td, th {
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+
+}
+
+input, textarea {
+	outline: 0;
+}
+
+input:focus, textarea:focus {
+	background: lightgray;
+}
+
+/* se pone en la class del html para poner varias clases*/
+.contenedor {	
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+.background {
+	background-image: url('../images/background.png');
+	background-size: cover;
+}
+
+.titulo {
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 70px;
+	margin-bottom: 0px;
+	margin-top: 70px; 
+}
+
+.titulo span {
+	text-decoration: underline;
+}
+
+.title-a {
+	font-size: 24px;
+	margin-top: 0px;
+}
+
+.title-b {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.guitarras h2 {
+	font-family: 'Montserrat', sans-serif; 
+	font-size: 35px;
+}
+
+.guitarras {
+	color: #1F313C;	
+	margin-bottom: 60px;
+}
+
+.portada {
+	background-image: url('../images/background.png');
+	background-size: cover;
+	color: white;
+	padding: 20px;	
+	height: 500px;
+}
+
+.portada button {
+	margin-bottom: 70px;
+}
+
+.menu{
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+}
+
+.menu li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+
+/*agregar un ascii a la pagina se hace con seudoelementos se agrega : a la etiquetaen css*/
+.menu li:before {
+	content: '∘';
+	font-size: 30px;
+	line-height: 20px;
+	color: white;
+}
+
+.logotipo {
+	display: inline-block;
+	margin-left: 0px;
+}
+
+.header {
+	position: relative;	
+}
+
+.guitarra {
+	margin: 10px 10px 40px 10px;
+	padding: 10px;
+	/*overflow: hidden;*/
+	border: 1px solid #1F313C;
+	border-radius: 8px;
+}
+
+.guitarra.b {
+	height: 190px;
+}
+
+.derecha {
+	float: right;
+	position: relative;
+	top: -140px;
+}
+
+.izquierda {
+	float: left;
+	position: relative;
+}
+
+.guitarra ol {
+	padding: 0px;
+}
+
+.contenedor-guitarra-b {
+	margin-left: 350px;
+	padding-left: 20px;
+	position: relative;
+	bottom: 90px;
+}
+
+.contenedor-guitarra-a {
+	padding-left: 20px;
+}
+
+.button {
+	border: none;
+	border-radius: 12px;
+	color: white;
+	padding: 7px 12px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 20px;
+	 background: #fd324e;
+	background: linear-gradient(to left, #fe344e, #ff7250);
+	/*
+	background: -moz-linear-gradient(top, #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%);
+	background: -webkit-linear-gradient(top, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%);
+	background: linear-gradient(to bottom, #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 );
+*/
+}
+
+.footer {
+	background: #273b47;
+	padding: 50px 10px;
+}
+
+.contacto img {
+	display: block;
+}
+
+.contacto strong {
+	display: block;
+}
+
+.contacto a {
+	color: white;
+	text-decoration: none;
+	margin: 10px 10px 10px 0px;
+}
+
+.contacto {
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.footer .contenedor {
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario {
+	display: flex;
+	width:400px;
+	color: white;
+}
+.col1, .col2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.col1 {
+	margin-right: 15px;
+}
+
+.col2 {
+	align-items: flex-start;
+}
+
+.col2 .button{
+	margin-top: 15px;
+}
+
+.intereses label {
+	font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses {
+	margin-bottom: 10px;
+}
+
+
+
+.sexo {
+	margin-top: 10px;
+}
+
+.tabla {
+	margin: 50px 0px;
+}
+/*https://dev.w3.org/html5/html-author/charref  es para ver los caracteres ascii*/
+
+
